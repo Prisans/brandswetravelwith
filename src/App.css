@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page, .trip-image-page {
+  min-height: 100vh;
+}
+

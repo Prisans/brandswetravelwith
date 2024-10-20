@@ -1,0 +1,44 @@
+.trip-image-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10%;
+}
+
+.left-text {
+  font-size: 2.5vw;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.stat-box {
+  background-color: #2EE59D;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 400px;
+}
+
+.stat-percentage {
+  font-size: 6vw;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat-description {
+  font-size: 1.5vw;
+  margin-top: 10px;
+}
+
+.stat-source {
+  font-size: 0.8vw;
+  margin-top: 20px;
+}

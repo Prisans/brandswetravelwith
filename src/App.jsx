@@ -1,7 +1,9 @@
 import React from 'react'
 import Home from './Components/Home/Home'
+import TripImage from './Components/TripImage/TripImage'
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
+import './App.css'  // Add this line
 
 
 
@@ -10,6 +12,9 @@ const App = () => {
     <div className="app">
       <div className="home-page">
         <Home/>
+      </div>
+      <div className="trip-image-page">
+        <TripImage/>
       </div>
     </div>
   )

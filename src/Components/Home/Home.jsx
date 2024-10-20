@@ -109,7 +109,7 @@ const Home = () => {
             <span className="we-shape black-circle"></span>
           </h1>
           <h1>Travel</h1>
-          <h1>Prisans</h1>
+          <h1>With</h1>
         </div>
         
         <p className="description">
