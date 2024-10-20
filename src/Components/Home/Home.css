@@ -419,3 +419,143 @@ header, main, footer {
   }
   
   /* ... rest of the styles remain unchanged ... */
+
+/* Add these responsive styles at the end of the file */
+
+@media screen and (max-width: 1024px) {
+  .home-container {
+    padding: 1rem 2rem;
+  }
+
+  .main-title {
+    font-size: 4rem;
+  }
+
+  .description {
+    font-size: 0.7rem;
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    padding: 1rem 1.5rem;
+  }
+
+  .logo-text {
+    font-size: 0.8rem;
+  }
+
+  .jump-to-btn {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+
+  .annual-report {
+    font-size: 0.7rem;
+  }
+
+  .main-title {
+    font-size: 3rem;
+  }
+
+  .we-shape {
+    width: 40px;
+    height: 40px;
+  }
+
+  .description {
+    font-size: 0.6rem;
+    max-width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home-container {
+    padding: 0.8rem 1rem;
+  }
+
+  .logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo-text {
+    font-size: 0.7rem;
+  }
+
+  .jump-to-btn {
+    font-size: 0.6rem;
+    padding: 4px 8px;
+  }
+
+  .annual-report {
+    font-size: 0.6rem;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .we-shape {
+    width: 30px;
+    height: 30px;
+  }
+
+  .description {
+    font-size: 0.5rem;
+    max-width: 200px;
+  }
+
+  .scroll-indicator {
+    width: 10px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .home-container {
+    justify-content: center;
+  }
+
+  .annual-report {
+    display: none;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+}
+
+/* Adjust animated shapes for smaller screens */
+@media screen and (max-width: 768px) {
+  .shape {
+    transform: scale(0.7);
+  }
+
+  .shape.small {
+    transform: scale(0.4);
+  }
+
+  .shape.large {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .shape {
+    transform: scale(0.5);
+  }
+
+  .shape.small {
+    transform: scale(0.3);
+  }
+
+  .shape.large {
+    transform: scale(0.7);
+  }
+}

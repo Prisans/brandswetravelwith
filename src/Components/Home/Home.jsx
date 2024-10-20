@@ -46,7 +46,7 @@ const Home = () => {
       'Cruises',
       'Airlines',
       'Hotels',
-      'Restaurants',
+      'Restaurant',
       'Attractions'
     ];
     let currentIndex = 0;
