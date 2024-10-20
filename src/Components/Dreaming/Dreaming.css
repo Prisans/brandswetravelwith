@@ -1,0 +1,26 @@
+.dreaming-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.dreaming-content {
+  text-align: center;
+}
+
+.dreaming-title {
+  font-size: 15vw;
+  font-weight: bold;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .dreaming-title {
+    font-size: 20vw;
+  }
+}
